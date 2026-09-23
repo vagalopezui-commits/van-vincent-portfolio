@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Van Vincent Lopez - IT Student Portfolio">
+  <title>Van Vincent Lopez | IT Student Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="navbar">
+    <a href="#home" class="logo">VV<span>.</span></a>
+    <button class="menu-toggle" aria-label="Open menu">☰</button>
+    <nav id="nav">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero section">
+      <div class="hero-text reveal">
+        <p class="eyebrow">IT STUDENT • WEB DEVELOPMENT</p>
+        <h1>Hi, I'm <span>Van Vincent</span> Lopez.</h1>
+        <p class="hero-description">
+          I’m an Information Technology student interested in web development,
+          UI/UX design, and building simple, useful digital experiences.
+        </p>
+        <div class="buttons">
+          <a class="btn primary" href="#projects">View My Work</a>
+          <a class="btn secondary" href="#contact">Contact Me</a>
+        </div>
+      </div>
+      <div class="hero-card reveal">
+        <div class="avatar">VV</div>
+        <div>
+          <h3>Van Vincent Lopez</h3>
+          <p>Information Technology Student</p>
+        </div>
+        <div class="status"><span></span> Open to learning & opportunities</div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="section-heading reveal">
+        <p class="eyebrow">ABOUT ME</p>
+        <h2>Learning, building, improving.</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p>
+            I am an IT student currently developing my skills in web development
+            and user interface design. I enjoy turning ideas into clean,
+            understandable, and practical interfaces.
+          </p>
+          <p>
+            I’m still growing as a developer, so I focus on learning by
+            creating projects, practicing frontend technologies, and working
+            with classmates on school systems.
+          </p>
+        </div>
+        <div class="facts reveal">
+          <div><strong>01</strong><span>Web Development</span></div>
+          <div><strong>02</strong><span>UI/UX & Prototyping</span></div>
+          <div><strong>03</strong><span>Frontend Practice</span></div>
+          <div><strong>04</strong><span>Problem Solving</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section alt">
+      <div class="section-heading reveal">
+        <p class="eyebrow">SKILLS</p>
+        <h2>Tools I’m learning and using.</h2>
+      </div>
+      <div class="skills-grid">
+        <div class="skill reveal"><span>HTML</span><small>Structure & semantics</small></div>
+        <div class="skill reveal"><span>CSS</span><small>Responsive layouts</small></div>
+        <div class="skill reveal"><span>JavaScript</span><small>Interactive interfaces</small></div>
+        <div class="skill reveal"><span>React</span><small>Component-based UI</small></div>
+        <div class="skill reveal"><span>Tailwind CSS</span><small>Modern styling</small></div>
+        <div class="skill reveal"><span>Git & GitHub</span><small>Version control</small></div>
+        <div class="skill reveal"><span>Figma</span><small>UI/UX prototyping</small></div>
+        <div class="skill reveal"><span>Python</span><small>Programming fundamentals</small></div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="section-heading reveal">
+        <p class="eyebrow">PROJECTS</p>
+        <h2>Some of my work.</h2>
+      </div>
+      <div class="projects-grid">
+        <article class="project-card reveal">
+          <div class="project-number">01</div>
+          <h3>Dental Record Treatment & Appointment System</h3>
+          <p>
+            A school capstone project focused on organizing patient records,
+            treatments, appointments, dental charts, and billing in one system.
+          </p>
+          <div class="tags"><span>React</span><span>Tailwind</span><span>UI/UX</span><span>Figma</span></div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-number">02</div>
+          <h3>Sports Management Website</h3>
+          <p>
+            A web project concept for presenting basketball information with
+            organized pages, responsive layouts, and a simple user experience.
+          </p>
+          <div class="tags"><span>HTML</span><span>CSS</span><span>Bootstrap</span></div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-number">03</div>
+          <h3>Learning & Practice Projects</h3>
+          <p>
+            Small exercises and experiments created while learning programming,
+            APIs, frontend development, Git, and basic system development.
+          </p>
+          <div class="tags"><span>JavaScript</span><span>Python</span><span>REST API</span><span>Git</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="contact-box reveal">
+        <p class="eyebrow">GET IN TOUCH</p>
+        <h2>Let’s build something.</h2>
+        <p>
+          I’m currently focused on improving my development skills and gaining
+          practical experience through projects.
+        </p>
+        <div class="contact-links">
+          <a href="mailto:your-email@example.com">Email Me ↗</a>
+          <a href="https://github.com/vagalopezui-commits" target="_blank" rel="noopener">GitHub ↗</a>
+        </div>
+        <p class="edit-note">Update your email and GitHub profile link anytime before publishing.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Van Vincent Lopez. Built with HTML, CSS & JavaScript.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
